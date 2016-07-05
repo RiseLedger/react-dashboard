@@ -1,0 +1,28 @@
+.main-menu {
+  background: #2c3e50;
+  overflow: hidden;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 10px;
+
+    &:hover {
+      color: darken(#fff, 15%);
+    }
+  }
+
+  .main-bar-actions > div {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .add-task {
+    margin-top: 12px;
+  }
+}

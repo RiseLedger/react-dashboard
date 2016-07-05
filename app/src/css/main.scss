@@ -1,0 +1,33 @@
+* {margin: 0;padding: 0;box-sizing: border-box}
+body {font-family: 'Open Sans', sans-serif;}
+
+.container {width: 90%;max-width: 1170px;margin: 25px auto;}
+
+.pull-left {float: left}
+.pull-right {float: right}
+
+.row {
+  overflow: hidden;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  .col-3 {
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.equal-height-cols {
+  display: flex;
+}
+
+.installation-process {
+  margin-top: 15px;
+
+  ol {
+    margin-top: 20px;
+    list-style-position: inside;
+  }
+}

@@ -1,0 +1,18 @@
+.panel {
+  text-align: center;
+  height: 100%;
+
+  .panel-header {
+    padding: 10px 5px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .panel-body {
+    padding: 10px 5px;
+    background: lighten(#f3f3f3, 2%);
+    height: inherit;
+  }
+}
